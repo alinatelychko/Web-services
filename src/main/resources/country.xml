@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <country countryCode="UA">
+        <name>Ukraine</name>
+        <capital>Kiev</capital>
+        <description>Ukraine is...</description>
+    </country>
+    <country countryCode="LT">
+        <name>Lithuania</name>
+        <capital>Vilnius</capital>
+        <description>Lithuania is...</description>
+    </country>
+</root>
