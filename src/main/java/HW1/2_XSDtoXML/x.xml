@@ -1,0 +1,44 @@
+Завдання 2:
+
+        <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+   <xs:simpleType name="CountryNameType">
+  <xs:restriction base="xs:string">
+  <xs:enumeration value="Ukraine"/>
+   <xs:enumeration value="Lithuania"/>
+   </xs:restriction>
+     </xs:simpleType>
+
+
+
+   <xs:simpleType name="DescriptionType">
+    <xs:restriction base="xs:string">
+    <xs:enumeration value="Ukraine is..."/>
+    <xs:enumeration value="Lithuania is..."/>
+ </xs:restriction>
+    </xs:simpleType>
+
+
+
+     <xs:complexType name="CountryType">
+    <xs:sequence>
+  <xs:element name="name" type="CountryNameType"/>
+    <xs:element name="capital" type="CapitalNameType"/>
+    <xs:element name="description" type="DescriptionType"/>
+    </xs:sequence>
+ <xs:attribute name="countryCode" type="CountryCodeType" use="optional"/>
+     </xs:complexType>
+
+
+     <xs:complexType name="RootType">
+   <xs:sequence>
+ <xs:element name="country" type="CountryType" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+   </xs:complexType>
+
+
+    <xs:element name="root" type="RootType"/>
+
+</xs:schema>

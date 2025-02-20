@@ -1,4 +1,4 @@
-package org.example;
+package HW1.Task_3;
 
 import java.io.*;
 import java.util.regex.*;

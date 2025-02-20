@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gems>
+    <Gem>
+        <Name>Diamond</Name>
+        <Preciousness>Precious</Preciousness>
+        <Origin>South Africa</Origin>
+        <VisualParameters>
+            <Color>White</Color>
+            <Transparency>95</Transparency>
+            <Cutting>10</Cutting>
+        </VisualParameters>
+        <Value>2.5</Value>
+    </Gem>
+    <Gem>
+        <Name>Emerald</Name>
+        <Preciousness>Precious</Preciousness>
+        <Origin>Colombia</Origin>
+        <VisualParameters>
+            <Color>Green</Color>
+            <Transparency>85</Transparency>
+            <Cutting>8</Cutting>
+        </VisualParameters>
+        <Value>3.0</Value>
+    </Gem>
+    <Gem>
+        <Name>Amethyst</Name>
+        <Preciousness>Semi-Precious</Preciousness>
+        <Origin>Brazil</Origin>
+        <VisualParameters>
+            <Color>Purple</Color>
+            <Transparency>80</Transparency>
+            <Cutting>6</Cutting>
+        </VisualParameters>
+        <Value>1.2</Value>
+    </Gem>
+</Gems>
